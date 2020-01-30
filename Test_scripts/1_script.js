@@ -1,0 +1,1 @@
+document.body.innerHTML = (prompt("Enter HTML-code"))
