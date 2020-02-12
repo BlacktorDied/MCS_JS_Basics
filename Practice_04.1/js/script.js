@@ -12,6 +12,14 @@ let computer = Math.floor(Math.random() * 3);
 // опишем все условия и будем выводить в консоль 'computer win' или 'player win'
 if(player == computer){
 	console.log('draw');
+}else if(player==0 && computer==2 || player==1 && computer==0 || player==2 && computer==1){
+	console.log('computer win');
+}else {
+	console.log('player win');
+}
+
+/*if(player == computer){
+	console.log('draw');
 }else if(player==0 && computer==1){
 	console.log('player win');
 }else if(player==0 && computer==2){
@@ -24,4 +32,4 @@ if(player == computer){
 	console.log('player win');
 }else if(player==2 && computer==1){
 	console.log('computer win');
-}
+}*/
