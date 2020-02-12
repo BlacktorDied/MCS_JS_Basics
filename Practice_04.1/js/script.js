@@ -18,6 +18,10 @@ if(player == computer){
 	console.log('player win');
 }
 
+// показывает твой ответ и ответ компьютера //
+console.log("your choice"+" "+player,"computer choice"+" "+computer);
+
+// прошлая версия кода //
 /*if(player == computer){
 	console.log('draw');
 }else if(player==0 && computer==1){
