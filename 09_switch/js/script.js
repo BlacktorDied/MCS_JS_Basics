@@ -15,5 +15,4 @@ switch(answer) {
 		break;
 	default:
 		console.log('no such singer in database');
-		break;
 }
