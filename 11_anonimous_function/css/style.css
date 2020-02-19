@@ -1,0 +1,19 @@
+@import url(reset.css);
+
+body {
+	width: 300px;
+	border: solid 2px black;
+	margin: auto;
+	margin-top: 10px;
+}
+
+p {
+	color: blue;
+	padding: 5px;
+	text-align: center;
+}
+
+h1, h2 {
+	padding: 5px;
+	text-align: center;
+}
