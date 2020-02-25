@@ -7,7 +7,7 @@ let bread2 = prompt('How much does one loaf of bread cost?');
 function haveEnough(money, apples, bread, apple, bread2){
 	let total = (money-(apples*apple)-(bread*bread2));
 	document.body.innerText = (total>=0);
-	(total >= 18) ? console.log('You have enough') : console.log('You haven`t got enough');	
+	(total >= 0) ? console.log('You have enough') : console.log('You haven`t got enough');	
 }
 
 haveEnough(money, apples, bread, apple, bread2);
