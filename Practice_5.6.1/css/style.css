@@ -1,0 +1,39 @@
+@import url(reset.css);
+body {
+	background-color: lightgrey;
+}
+form {
+	font-size: 2rem;
+	width: 25%;
+	display: flex;
+	margin: auto;
+	margin-top: 20vh;
+	padding: 3rem;
+	border: 5px solid black;
+	justify-content: center;
+	flex-direction: column;
+}
+
+label {
+	margin: auto;
+	margin-bottom: 0.5rem;
+}
+
+input { 
+	padding: 0.5rem;
+	font-size: 1.5rem;
+}
+
+input[type='submit']{
+	margin-top: 1rem;
+	background-color: black;
+	color: white;
+	font-size: 1.5rem;
+}
+
+h2 {
+	width: 25%;
+	padding: 5vh;
+	margin: auto;
+	font-size: 2rem;
+}
