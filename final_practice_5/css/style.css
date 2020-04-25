@@ -1,0 +1,81 @@
+@import url(reset.css);
+
+.bitcoin.diagram {
+	height: 30px;
+	width: 694.185px;
+	/* 1388.37/2 = 694.185 */
+	margin: 10px; 
+	background-color: gold;
+}
+
+.ethereum.diagram {
+	height: 30px;
+	width: 358px;
+	/* 716/2 = 358 */
+	margin: 10px; 
+	background-color: silver;
+}
+
+.litecoin.diagram {
+	height: 30px;
+	width: 70px;
+	/* 140/2 = 70 */
+	margin: 10px; 
+	background-color: #cd7f32;
+}
+
+.bitcoin, .ethereum, .litecoin {
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.bitcoinContainer, .ethereumContainer, .litecoinContainer {
+	margin-top: 10px;
+}
+
+.page {
+	width: 75%;
+	margin: auto;
+	margin-top: 50px;
+	border: 3px solid black;
+	-webkit-box-shadow: 18px 21px 24px -4px rgba(0,0,0,0.78);
+	-moz-box-shadow: 18px 21px 24px -4px rgba(0,0,0,0.78);
+	box-shadow: 18px 21px 24px -4px rgba(0,0,0,0.78); 
+}
+
+@media all and (max-width: 992px) {
+	.bitcoin_diagram {
+		width: 347.0925px;
+		/* 140/4 = 347.0925 */
+	}
+	.ethereum_diagram {
+		width: 179px;
+		/* 140/4 = 179 */
+	}
+	.litecoin_diagram {
+		width: 35px;
+		/* 140/4 = 35 */
+	}
+} 
+@media all and (max-width: 768px) {
+	.bitcoin_diagram {
+		width: 231.395px;
+		/* 140/6 = 231.395 */
+	}
+	.ethereum_diagram {
+		width: 119px;
+		/* 140/6 = 119 */
+	}
+	.litecoin_diagram {
+		width: 23px;
+		/* 140/6 = 23 */
+	}
+	.page {
+		width: 50%;
+	}
+}
+@media all and (max-width: 540px) {
+	
+}
