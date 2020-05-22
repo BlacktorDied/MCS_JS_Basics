@@ -6,7 +6,7 @@ let names = [
 [['собака', 'кошка'],
 ['обезьяна', 'рысь']]];
 
-for(let i=0; i<names[0][0].length; i++){
+/*for(let i=0; i<names[0][0].length; i++){
 	console.log(names[0][0][i]);
 }
 
@@ -22,4 +22,12 @@ window.onload = () => {
 	names[1][1].forEach((name) =>{
 		console.log(name)
 	})
-}
+}*/
+
+names.forEach(group => {
+  group.forEach(animals => {
+    animals.forEach(animal => {
+      console.log(animal)
+    })
+  })
+})
