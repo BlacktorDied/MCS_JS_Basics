@@ -1,0 +1,40 @@
+@import url(reset.css);
+
+form {
+	width: 50%;
+	border: 1.5px solid black;
+	-webkit-box-shadow: 35px 17px 40px -1px rgba(0,0,0,0.81);
+	-moz-box-shadow: 35px 17px 40px -1px rgba(0,0,0,0.81);
+	box-shadow: 35px 17px 40px -1px rgba(0,0,0,0.81);
+	padding: 5vh;
+	margin: auto;
+	margin-top: 10vh;
+}
+
+fieldset {
+	display: flex;
+}
+
+label {
+	font-size: 1.3rem;
+	font-weight: bold;
+	padding-bottom: 2vh;
+}
+
+input[name="city"] {
+	border: none;
+	border-bottom: 1px solid black;
+	background: none;
+	outline: none;
+	font-size: 1.01rem;
+	color: grey;
+}
+
+input[type="submit"] {
+	margin-top: 2vh;
+}
+
+div {
+	font-size: 1.01rem;
+	margin-top: 2vh;
+}
